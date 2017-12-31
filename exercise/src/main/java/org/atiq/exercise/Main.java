@@ -27,7 +27,7 @@ public class Main {
 		List<Integer> values = Arrays.asList(2, 2, 1, 1, 1, 1);
 		
 		WordCounter counter = new WordCounter();
-		Map<String, Integer> counts = counter.countRepetitions1(str);
+		Map<String, Integer> counts = counter.countRepetitions(str);
 		System.out.printf("Test %s", Main.testCounts(counts, values) ? "passed" : "failed");
 	}
 	

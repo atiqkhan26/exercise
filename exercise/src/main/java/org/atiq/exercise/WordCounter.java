@@ -9,7 +9,7 @@ public class WordCounter {
 	
 	static private Pattern pattern = Pattern.compile("(\\b[^\\s]+\\b)");
 	
-	public Map<String, Integer> countRepetitions1(String str) {
+	public Map<String, Integer> countRepetitions(String str) {
 		Map<String, Integer> result = null;
 		if (str != null && !str.isEmpty()) {
 			Matcher matcher = pattern.matcher(str);
